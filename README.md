@@ -94,7 +94,7 @@ cd apps-spk-pemilihan-supplier-metode-ahp-desktop
 ```sh
 java -jar Apps_SPK_AHP_Supplier.jar
 ```
-Atau Anda bisa langsung mengklik file JAR untuk menjalankan demo aplikasi perpustakaan ini.
+Atau Anda bisa langsung mengklik file JAR untuk menjalankan demo aplikasi ini.
 
 Terima kasih
 
