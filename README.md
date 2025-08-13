@@ -35,7 +35,7 @@ Namun, koneksi ke database mungkin mengalami keterlambatan.
   - `modal-dialog-demo-2.1.0.jar` → Contoh penggunaan  
 
 - **MySQL Driver**  
-  - `mysql-connector-j-8.0.31.jar` → JDBC driver MySQL/MariaDB  
+  - `mysql-connector-j-8.0.31.jar` → JDBC driver MySQL 
 
 - **Hashing**  
   - `jbcrypt-0.4.jar` → Hash password dengan BCrypt  
