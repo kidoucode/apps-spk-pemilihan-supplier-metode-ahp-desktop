@@ -9,29 +9,35 @@ Aplikasi ini adalah sistem pendukung keputusan pemilihan supplier terbaik menggu
 Untuk menjalankan demo ini, Anda hanya memerlukan JDK 11, karena database diunggah secara online. Namun, harap diperhatikan bahwa koneksi database mungkin mengalami keterlambatan.
 
 #### Library atau Dependensi :
-- **Flatlaf** : Untuk mempercantik tampilan aplikasi.
-- **MigLayout** : Untuk mempermudah pengaturan posisi dan ukuran komponen di dalam container (seperti JPanel).
-- **MySQL Driver** : Untuk menghubungkan aplikasi java swing dengan database MySQL.
-- flatlaf-3.5.2.jar → Library utama untuk tema modern Java Swing.
-- flatlaf-3.5.2-sources.jar → Source code untuk referensi/debug.
-- flatlaf-extras-3.5.2.jar → Fitur tambahan seperti custom accent color, font, dan icon.
-- flatlaf-fonts-roboto-2.137.jar → Font Roboto bawaan untuk digunakan di UI.
-- flatlaf-intellij-themes-3.2.5.jar → Tema UI mirip IntelliJ IDEA.
-- jsvg-1.4.0.jar → Rendering gambar SVG di UI, biasanya dipakai untuk icon.
-- miglayout-core-5.3.jar → Inti layout manager untuk mengatur posisi komponen.
-- miglayout-swing-5.3.jar → Integrasi MigLayout dengan komponen Swing.
-- modal-dialog-2.1.0.jar → Library untuk membuat dialog kustom (popup) dengan animasi dan desain modern.
-- modal-dialog-demo-2.1.0.jar → Contoh/demo penggunaan modal dialog.
-- mysql-connector-j-8.0.31.jar → Driver JDBC untuk menghubungkan aplikasi Java dengan database MySQL/MariaDB.
-- jbcrypt-0.4.jar → Library untuk hashing password menggunakan algoritma BCrypt. Fungsi umum: Mengamankan password sebelum disimpan di database.
-- itextpdf-5.5.13.jar → Library untuk membuat dan mengedit file PDF. Fungsi umum: Generate laporan PDF dari aplikasi (misal: invoice, laporan data).
-- commons-collections4-4.4.jar → Kumpulan struktur data koleksi tambahan untuk Apache POI.
-- commons-compress-1.19.jar → Library untuk kompresi/dekompresi file (ZIP, GZIP, dll) yang digunakan POI.
-- poi-4.1.2.jar → Apache POI core untuk membaca/menulis Excel, Word, PowerPoint.
-- poi-ooxml-4.1.2.jar → Modul khusus format Office baru (XLSX, DOCX, PPTX).
-- poi-ooxml-schemas-4.1.2.jar → Skema XML untuk format OOXML.
-- stax-api-1.0.1.jar → API untuk parsing XML berbasis streaming (dibutuhkan POI).
-- xmlbeans-3.1.0.jar → Library untuk memproses XML yang digunakan oleh POI.
+-  **FlatLaf (Java Look and Feel)**
+flatlaf-3.5.2.jar** → Library utama untuk tema modern Java Swing.
+flatlaf-3.5.2-sources.jar → Source code untuk referensi/debug.
+flatlaf-extras-3.5.2.jar → Fitur tambahan seperti custom accent color, font, dan icon.
+flatlaf-fonts-roboto-2.137.jar → Font Roboto bawaan untuk digunakan di UI.
+flatlaf-intellij-themes-3.2.5.jar → Tema UI mirip IntelliJ IDEA.
+jsvg-1.4.0.jar → Rendering gambar SVG di UI, biasanya dipakai untuk icon.
+
+- **MigLayout**
+miglayout-core-5.3.jar → Inti layout manager untuk mengatur posisi komponen.
+miglayout-swing-5.3.jar → Integrasi MigLayout dengan komponen Swing.
+
+- **Modal Dialog** 
+modal-dialog-2.1.0.jar → Library untuk membuat dialog kustom (popup) dengan animasi dan desain modern.
+modal-dialog-demo-2.1.0.jar → Contoh/demo penggunaan modal dialog.
+-  **MySQL Driver**
+mysql-connector-j-8.0.31.jar → Driver JDBC untuk menghubungkan aplikasi Java dengan database MySQL/MariaDB.
+-  **Hashing**
+jbcrypt-0.4.jar → Library untuk hashing password menggunakan algoritma BCrypt. Fungsi umum: Mengamankan password sebelum disimpan di database.
+-  **PDF**
+itextpdf-5.5.13.jar → Library untuk membuat dan mengedit file PDF. Fungsi umum: Generate laporan PDF dari aplikasi (misal: invoice, laporan data).
+-  **Excel (Apache POI)**
+commons-collections4-4.4.jar → Kumpulan struktur data koleksi tambahan untuk Apache POI.
+commons-compress-1.19.jar → Library untuk kompresi/dekompresi file (ZIP, GZIP, dll) yang digunakan POI.
+poi-4.1.2.jar → Apache POI core untuk membaca/menulis Excel, Word, PowerPoint.
+poi-ooxml-4.1.2.jar → Modul khusus format Office baru (XLSX, DOCX, PPTX).
+poi-ooxml-schemas-4.1.2.jar → Skema XML untuk format OOXML.
+stax-api-1.0.1.jar → API untuk parsing XML berbasis streaming (dibutuhkan POI).
+xmlbeans-3.1.0.jar → Library untuk memproses XML yang digunakan oleh POI.
 
 #### Fitur Utama :
 - **Manajemen Buku:** Menambah, mengedit, dan menghapus informasi buku di perpustakaan.
