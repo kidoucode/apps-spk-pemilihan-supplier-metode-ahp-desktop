@@ -10,7 +10,7 @@ Untuk menjalankan demo ini, Anda hanya memerlukan JDK 11, karena database diungg
 
 #### Library atau Dependensi :
 -  **FlatLaf (Java Look and Feel)**
-- flatlaf-3.5.2.jar** → Library utama untuk tema modern Java Swing.
+flatlaf-3.5.2.jar** → Library utama untuk tema modern Java Swing.
 flatlaf-3.5.2-sources.jar → Source code untuk referensi/debug.
 flatlaf-extras-3.5.2.jar → Fitur tambahan seperti custom accent color, font, dan icon.
 flatlaf-fonts-roboto-2.137.jar → Font Roboto bawaan untuk digunakan di UI.
@@ -46,17 +46,17 @@ xmlbeans-3.1.0.jar → Library untuk memproses XML yang digunakan oleh POI.
 - Hasil ranking
 
 #### Arsitektur Proyek (Package) :
-- **Config** : Menghubungkan aplikasi dengan database.
-- **DAO** : Implementasi logika bisnis yang spesifik untuk database, termasuk implementasi antarmuka service.
-- **Form** : Mengelola tampilan data di tabel.
-- **Form Input** : Mengelola tampilan form input.
-- **Icon dan Img** : Menyimpan ikon dan gambar aplikasi.
-- **Main** : Mengelola tampilan menu utama.
-- **Model** : Mewakili entitas tabel database.
-- **Service** : Mengandung logika bisnis untuk operasi CRUD.
-- **TableModel** : Mengelola file laporan aplikasi.
-- **Theme** : Mengelola design warna dan layout aplikasi.
-- **Util** : Mengelola design warna dan layout aplikasi.
+- Config → Menangani konfigurasi koneksi aplikasi dengan database.
+- DAO → Berisi implementasi logika akses data ke database, termasuk penerapan antarmuka pada service.
+- Form → Mengatur dan menampilkan data dalam bentuk tabel.
+- Form Input → Mengatur tampilan dan fungsi form untuk input data.
+- Icon & Img → Menyimpan ikon dan gambar yang digunakan aplikasi.
+- Main → Mengatur tampilan dan logika menu utama aplikasi.
+- Model → Mewakili struktur entitas yang sesuai dengan tabel pada database.
+- Service → Menyimpan logika bisnis untuk operasi CRUD dan menghubungkan antara DAO dan UI.
+- TableModel → Mengatur model tabel khusus untuk menampilkan data di JTable.
+- Theme → Menangani tema warna, gaya, dan tata letak aplikasi.
+- Util → Berisi fungsi-fungsi utilitas umum yang mendukung aplikasi.
 
 #### Instalasi dan Konfigurasi
 
