@@ -10,7 +10,7 @@ Untuk menjalankan demo ini, Anda hanya memerlukan JDK 11, karena database diungg
 
 #### Library atau Dependensi :
 -  **FlatLaf (Java Look and Feel)**
-flatlaf-3.5.2.jar** → Library utama untuk tema modern Java Swing.
+- flatlaf-3.5.2.jar** → Library utama untuk tema modern Java Swing.
 flatlaf-3.5.2-sources.jar → Source code untuk referensi/debug.
 flatlaf-extras-3.5.2.jar → Fitur tambahan seperti custom accent color, font, dan icon.
 flatlaf-fonts-roboto-2.137.jar → Font Roboto bawaan untuk digunakan di UI.
@@ -40,23 +40,23 @@ stax-api-1.0.1.jar → API untuk parsing XML berbasis streaming (dibutuhkan POI)
 xmlbeans-3.1.0.jar → Library untuk memproses XML yang digunakan oleh POI.
 
 #### Fitur Utama :
-- **Manajemen Buku:** Menambah, mengedit, dan menghapus informasi buku di perpustakaan.
-- **Manajemen Anggota:** Menambah, mengedit, dan menghapus data anggota perpustakaan.
-- **Peminjaman Buku:** Proses peminjaman buku oleh anggota dan pengembalian buku.
-- **Laporan:** Melihat laporan peminjaman buku, laporan data anggota dan laporan data buku.
+- Input supplier & kriteria
+- Perbandingan berpasangan (AHP)
+- Perhitungan bobot & konsistensi
+- Hasil ranking
 
 #### Arsitektur Proyek (Package) :
 - **Config** : Menghubungkan aplikasi dengan database.
-- **Service** : Mengandung logika bisnis untuk operasi CRUD.
 - **DAO** : Implementasi logika bisnis yang spesifik untuk database, termasuk implementasi antarmuka service.
-- **Icon** : Menyimpan ikon aplikasi.
-- **JDialog** : Mengelola tampilan form input.
 - **Form** : Mengelola tampilan data di tabel.
+- **Form Input** : Mengelola tampilan form input.
+- **Icon dan Img** : Menyimpan ikon dan gambar aplikasi.
 - **Main** : Mengelola tampilan menu utama.
 - **Model** : Mewakili entitas tabel database.
-- **Menu** : Mengelola daftar menu aplikasi.
-- **Report** : Mengelola file laporan aplikasi.
+- **Service** : Mengandung logika bisnis untuk operasi CRUD.
+- **TableModel** : Mengelola file laporan aplikasi.
 - **Theme** : Mengelola design warna dan layout aplikasi.
+- **Util** : Mengelola design warna dan layout aplikasi.
 
 #### Instalasi dan Konfigurasi
 
